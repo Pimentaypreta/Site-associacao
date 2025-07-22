@@ -1571,7 +1571,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     .s-header__content {
         padding-top: 28rem;
         padding-bottom: 15rem;  
-        background-size: auto 200px; 
+        background-size: auto 260px; 
         background-position: center top;
     }
 }
@@ -1668,7 +1668,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
         text-align: center;
         padding-top: 20rem;
         padding-bottom: 10rem;
-        background-size: auto 140px;
+        background-size: auto 200px;
     }
     .s-header__logotext {
         font-size: 6.4rem;
@@ -1684,7 +1684,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 /*## main navigation on large screens*/
-@media only screen and (min-width:801px) {
+@media only screen and (min-width:800px) {
     .s-header__nav li.has-children:hover>a::after, 
     .s-header__nav li.has-children:focus>a::after {
         -webkit-transform: rotate(225deg);
