@@ -15,9 +15,6 @@
         max-width: 100%;
     }
 }
-
-
-
 /* # base style overrides*/
 html {
     font-size: 10px;
@@ -1115,12 +1112,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .alert-box--success {
     background-color: #c8e675;
-    color: #637533;
+    color: #597ce3;
 }
 
 .alert-box--success .alert-box__close::before, 
 .alert-box--success .alert-box__close::after {
-    background-color: #637533;
+    background-color: #597ce3;
 }
 
 .alert-box--info {
@@ -1288,16 +1285,14 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     margin-top: 7rem;
     background-color: #ffffff;
     background-image: url(../images/header-content-bg_@2x.png);
-    background-size: 200px 194px;
     background-repeat: no-repeat;
     background-position: right top;
-    min-height: 30rem;
     padding-top: 12rem;
     padding-bottom: 8rem;
     border-bottom: 1px dashed #efefef;
     position: relative;
+    background-size: auto 300px; 
 }
-
 /* ## header-logo */
 .s-header__logotext {
     margin: 0;
@@ -1574,11 +1569,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 @media screen and (max-width:800px) {
     .s-header__content {
-        padding-top: 9.6rem;
-        padding-bottom: 12rem;
-        min-height: 0;
-        background-size: 310px 220px;
+        padding-top: 15rem;
+        padding-bottom: 15rem;  
+        background-size: auto 100px; 
+        background-position: center top;
     }
+}
     .header-menu-toggle {
         display: block;
     }
@@ -1664,21 +1660,20 @@ button::-moz-focus-inner, input::-moz-focus-inner {
         opacity: 1;
         visibility: visible;
     }
-}
+
 
 @media screen and (max-width:600px) {
     .s-header__content {
         background-position: center top;
         text-align: center;
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+        background-size: auto 80px;
     }
     .s-header__logotext {
         font-size: 6.4rem;
     }
-    .s-header__nav-wrap>.row {
-        padding: 0;
-    }
 }
-
 @media screen and (max-width:400px) {
     .s-header__logotext {
         font-size: 6rem;
@@ -2091,4 +2086,3 @@ button::-moz-focus-inner, input::-moz-focus-inner {
         border-radius: 4px 0 0 0;
     }
 }
-
