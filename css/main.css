@@ -1571,7 +1571,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     .s-header__content {
         padding-top: 15rem;
         padding-bottom: 15rem;  
-        background-size: auto 100px; 
+        background-size: auto 200px; 
         background-position: center top;
     }
 }
@@ -1668,7 +1668,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
         text-align: center;
         padding-top: 10rem;
         padding-bottom: 10rem;
-        background-size: auto 80px;
+        background-size: auto 140px;
     }
     .s-header__logotext {
         font-size: 6.4rem;
