@@ -1569,7 +1569,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 @media screen and (max-width:800px) {
     .s-header__content {
-        padding-top: 15rem;
+        padding-top: 28rem;
         padding-bottom: 15rem;  
         background-size: auto 200px; 
         background-position: center top;
@@ -1666,7 +1666,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     .s-header__content {
         background-position: center top;
         text-align: center;
-        padding-top: 10rem;
+        padding-top: 20rem;
         padding-bottom: 10rem;
         background-size: auto 140px;
     }
