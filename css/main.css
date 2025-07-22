@@ -1569,12 +1569,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 @media screen and (max-width:800px) {
     .s-header__content {
-        padding-top: 28rem;
-        padding-bottom: 15rem;  
-        background-size: auto 260px; 
-        background-position: center top;
+        padding-top: 9.6rem;
+        padding-bottom: 12rem;
+        min-height: 0;
+        background-size: 310px 220px;
     }
-}
     .header-menu-toggle {
         display: block;
     }
@@ -1631,7 +1630,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
         background-color: transparent;
         border: none;
         border-radius: 0;
-        color: #597ce3;
+        color: #84be5b;
     }
     .s-header__nav ul {
         opacity: 1;
@@ -1660,20 +1659,21 @@ button::-moz-focus-inner, input::-moz-focus-inner {
         opacity: 1;
         visibility: visible;
     }
-
+}
 
 @media screen and (max-width:600px) {
     .s-header__content {
         background-position: center top;
         text-align: center;
-        padding-top: 20rem;
-        padding-bottom: 10rem;
-        background-size: auto 200px;
     }
     .s-header__logotext {
         font-size: 6.4rem;
     }
+    .s-header__nav-wrap>.row {
+        padding: 0;
+    }
 }
+
 @media screen and (max-width:400px) {
     .s-header__logotext {
         font-size: 6rem;
@@ -1682,19 +1682,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
         margin: 6rem 4rem 4.8rem;
     }
 }
-
-/*## main navigation on large screens*/
-@media only screen and (min-width:800px) {
-    .s-header__nav li.has-children:hover>a::after, 
-    .s-header__nav li.has-children:focus>a::after {
-        -webkit-transform: rotate(225deg);
-        transform: rotate(225deg);
-    }
-    .s-header__nav ul {
-        display: block !important;
-    }
-}
-
 
 
 /* ===================================================================
