@@ -1476,7 +1476,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .header-menu-toggle {
     z-index: 101;
     display: none;
-    background-color: #9fcc7f;
+    background-color: #597ce3;
     height: 4.8rem;
     width: 5.2rem;
     line-height: 4.8rem;
@@ -1484,7 +1484,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     font-size: 1.4rem;
     text-transform: uppercase;
     letter-spacing: .2rem;
-    color: #9fcc7f;
+    color: #597ce3;
     outline: none;
     -webkit-transition: all .3s;
     transition: all .3s;
